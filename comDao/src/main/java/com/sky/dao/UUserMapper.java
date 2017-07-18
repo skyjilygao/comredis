@@ -1,4 +1,4 @@
-package com.sky.mapper;
+package com.sky.dao;
 import org.springframework.stereotype.Repository;
 
 @Repository

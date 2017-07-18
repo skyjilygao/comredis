@@ -13,5 +13,8 @@ public class UUserController {
 	@Autowired
 	private UUserService uUserService;
 
-
+	@RequestMapping("/index")
+	public String index(){
+		return "index";
+	}
 }
