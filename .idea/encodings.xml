@@ -2,11 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rediscommons" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redismanager" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redismapper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redispojo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redisservice" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/redisweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comCommons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comDao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comEntity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comManager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comWeb" charset="UTF-8" />
   </component>
 </project>

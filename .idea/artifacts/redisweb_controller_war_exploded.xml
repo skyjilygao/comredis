@@ -4,20 +4,20 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="redisweb-controller" />
+          <element id="module-output" name="comWeb" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="redis-commons-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="rediscommons" />
+            <element id="module-output" name="comCommons" />
           </element>
           <element id="archive" name="redisservice-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="redisservice" />
+            <element id="module-output" name="comService" />
           </element>
           <element id="archive" name="redis-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="redispojo" />
+            <element id="module-output" name="comEntity" />
           </element>
           <element id="archive" name="redis-mapper-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="redismapper" />
+            <element id="module-output" name="comDao" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
@@ -71,9 +71,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/redisweb/target/redis-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/comWeb/target/redis-web/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="redisweb-controller/web/Web" />
+      <element id="javaee-facet-resources" facet="comWeb/web/Web" />
     </root>
   </artifact>
 </component>

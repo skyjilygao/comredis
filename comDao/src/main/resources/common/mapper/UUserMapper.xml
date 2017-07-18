@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gao.dao.UUserMapper">
+
+	<resultMap id="rm" type="com.gao.entity.UUser">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="loginName" column="loginName"/>
+        <result property="roleName" column="roleName"/>
+        <result property="createTime" column="createTime"/>
+        <result property="lastLoginTime" column="lastLoginTime"/>
+        <result property="dataFlag" column="dataFlag"/>
+        <result property="password" column="password"/>
+	</resultMap>
+	
+	<sql id="columns">
+	    <![CDATA[
+		id,name,loginName,roleName,createTime,lastLoginTime,dataFlag,password
+	    ]]>
+	</sql>
+
+	<insert id="insert" useGeneratedKeys="true" keyProperty="id">
+    <![CDATA[
+        INSERT INTO u_user ( id , name , loginName , roleName , createTime , lastLoginTime , dataFlag , password ) 
+        VALUES (#{id} ,#{name} ,#{loginName} ,#{roleName} ,#{createTime} ,#{lastLoginTime} ,#{dataFlag} ,#{password} )
+    ]]>
+	</insert>
+	
+	<update id="update" >
+        UPDATE u_user
+       	<set>
+		        	<if test="name != null and name != ''">
+		        		name = #{name} ,
+		        	</if>
+		        	<if test="loginName != null and loginName != ''">
+		        		loginName = #{loginName} ,
+		        	</if>
+		        	<if test="roleName != null and roleName != ''">
+		        		roleName = #{roleName} ,
+		        	</if>
+		        	<if test="createTime != null">
+		        		createTime = #{createTime} ,
+		        	</if>
+		        	<if test="lastLoginTime != null">
+		        		lastLoginTime = #{lastLoginTime} ,
+		        	</if>
+		        	<if test="dataFlag != null">
+		        		dataFlag = #{dataFlag} ,
+		        	</if>
+		        	<if test="password != null and password != ''">
+		        		password = #{password} 
+		        	</if>
+        </set>
+        WHERE id = #{id}
+	</update>
+
+    <delete id="delete">
+    <![CDATA[
+        DELETE FROM u_user WHERE
+        id = #{id}
+    ]]>
+    </delete>
+    
+    <select id="getById" resultMap="rm">
+		SELECT <include refid="columns" />
+	    <![CDATA[
+		    FROM u_user 
+	        WHERE id = #{id}
+	    ]]>
+	</select>
+
+</mapper>
+

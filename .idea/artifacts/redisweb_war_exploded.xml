@@ -4,13 +4,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="redisweb-controller" />
+          <element id="module-output" name="comWeb" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/redisweb/target/redis-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/comWeb/target/redis-web/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="redisweb-controller/web/Web" />
+      <element id="javaee-facet-resources" facet="comWeb/web/Web" />
     </root>
   </artifact>
 </component>

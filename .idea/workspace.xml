@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f89802-420d-411e-8d79-c15be4a74d63" name="Default" comment="" />
+    <list default="true" id="a6f89802-420d-411e-8d79-c15be4a74d63" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comDao/src/main/java/com/sky/mapper/UUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comDao/src/main/resources/common/mapper/UUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comEntity/src/main/java/UUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rediscommons/target/classes/com/sky/commons/c1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rediscommons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rediscommons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rediscommons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redismanager/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redismanager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redismapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redismapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redispojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redispojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisweb/target/classes/com/sky/controller/c1Controller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisweb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/classes/com/sky/controller/c1Controller.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rediscommons/pom.xml" afterPath="$PROJECT_DIR$/comCommons/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rediscommons/rediscommons.iml" afterPath="$PROJECT_DIR$/comCommons/comCommons.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rediscommons/src/main/java/com/sky/commons/TestCommon.java" afterPath="$PROJECT_DIR$/comCommons/src/main/java/com/sky/commons/TestCommon.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rediscommons/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comCommons/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rediscommons/target/redis-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comCommons/target/redis-commons-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismanager/pom.xml" afterPath="$PROJECT_DIR$/comManager/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismanager/redismanager.iml" afterPath="$PROJECT_DIR$/comEntity/comEntity.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismanager/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comManager/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismanager/target/redis-manager-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comManager/target/redis-manager-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismapper/pom.xml" afterPath="$PROJECT_DIR$/comDao/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismapper/redismapper.iml" afterPath="$PROJECT_DIR$/comDao/comDao.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismapper/src/main/resources/common/mapper/user.xml" afterPath="$PROJECT_DIR$/comDao/src/main/resources/common/mapper/user.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismapper/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comDao/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redismapper/target/redis-mapper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comDao/target/redis-mapper-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redispojo/pom.xml" afterPath="$PROJECT_DIR$/comEntity/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redispojo/redispojo.iml" afterPath="$PROJECT_DIR$/comManager/comManager.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redispojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comEntity/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redispojo/target/redis-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comEntity/target/redis-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/pom.xml" afterPath="$PROJECT_DIR$/comService/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/redisservice.iml" afterPath="$PROJECT_DIR$/comService/comService.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/TestService.java" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/TestService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl/TestServiceImpl.java" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/TestServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comService/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisservice/target/redisservice-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comService/target/redisservice-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/pom.xml" afterPath="$PROJECT_DIR$/comWeb/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/redisweb-controller.iml" afterPath="$PROJECT_DIR$/comWeb/comWeb.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java" afterPath="$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/testController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/src/main/resources/applicationContext-spring.xml" afterPath="$PROJECT_DIR$/comWeb/src/main/resources/applicationContext-spring.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/comWeb/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/comWeb/src/main/webapp/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/comWeb/target/maven-archiver/pom.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web.war" afterPath="$PROJECT_DIR$/comWeb/target/redis-web.war" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/activation-1.1.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/activation-1.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/aspectjrt-1.8.10.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/aspectjrt-1.8.10.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/aspectjweaver-1.8.10.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/commons-codec-1.10.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/commons-codec-1.10.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/commons-io-2.5.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/commons-io-2.5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/commons-pool2-2.4.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/druid-1.0.28.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/druid-1.0.28.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/fastjson-1.2.31.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/fastjson-1.2.31.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/httpclient-4.5.3.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/httpclient-4.5.3.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/httpcore-4.4.6.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/httpcore-4.4.6.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/httpmime-4.5.3.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/httpmime-4.5.3.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jackson-annotations-2.8.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jackson-core-2.8.8.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jackson-core-2.8.8.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jackson-databind-2.8.8.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jackson-databind-2.8.8.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/javaee-api-7.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/javaee-api-7.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/javax.mail-1.5.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/javax.mail-1.5.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jcl-over-slf4j-1.7.24.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jcl-over-slf4j-1.7.24.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jedis-2.9.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jedis-2.9.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/lombok-1.16.16.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/lombok-1.16.16.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/mybatis-3.4.2.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/mybatis-3.4.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/mysql-connector-java-5.1.41.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/redis-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/redis-commons-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/redis-mapper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/redis-mapper-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/redis-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/redis-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/redisservice-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/redisservice-1.0-SNAPSHOT.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/slf4j-api-1.7.24.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/slf4j-api-1.7.24.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-data-commons-1.13.3.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-data-commons-1.13.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-data-keyvalue-1.2.3.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-data-keyvalue-1.2.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-data-redis-1.8.3.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-data-redis-1.8.3.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-oxm-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-oxm-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/xml-apis-1.0.b2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/xmlpull-1.1.3.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/xpp3_min-1.1.4c.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/xpp3_min-1.1.4c.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/lib/xstream-1.4.9.jar" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/lib/xstream-1.4.9.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redisweb/target/redis-web/index.jsp" afterPath="$PROJECT_DIR$/comWeb/target/redis-web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/redisweb_controller_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/redisweb_controller_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/redisweb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/redisweb_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rediscommons/target/" />
@@ -20,104 +141,78 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="userMgt" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rediscommons/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comWeb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="175">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisweb/pom.xml">
+      <file leaf-file-name="UUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCommon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rediscommons/src/main/java/com/sky/commons/TestCommon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="testController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java">
+        <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/testController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-spring.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/applicationContext-spring.xml">
+      <file leaf-file-name="UUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comDao/src/main/resources/common/mapper/UUserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redismapper/src/main/resources/common/mapper/user.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/TestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl/TestServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="269">
+              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <folding>
+                <marker date="1500362405000" expanded="true" signature="913:1139" ph="INSERT INTO u_user... " />
+                <marker date="1500362405000" expanded="true" signature="1192:2001" ph="UPDATE u_use... " />
+                <marker date="1500362405000" expanded="true" signature="2061:2104" ph="DELETE FROM " />
+                <marker date="1500362405000" expanded="true" signature="2175:2269" ph="SELECT FROM u_user" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redisservice/pom.xml">
+        <entry file="file://$PROJECT_DIR$/comService/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -143,6 +238,9 @@
       <replace>jdbc</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -151,7 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/redismapper/pom.xml" />
         <option value="$PROJECT_DIR$/redisservice/pom.xml" />
         <option value="$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/c1Controller.java" />
@@ -163,6 +260,14 @@
         <option value="$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java" />
         <option value="$PROJECT_DIR$/redisweb/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/redisweb/src/main/resources/applicationContext-spring.xml" />
+        <option value="$PROJECT_DIR$/../../../work/简易员工管理系统第3.2版/userMgt.sql" />
+        <option value="$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/UUserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/redispojo/src/main/java/UUser.java" />
+        <option value="$PROJECT_DIR$/redismapper/src/main/java/UUserMapper.java" />
+        <option value="$PROJECT_DIR$/redismapper/src/main/resources/common/mapper/UUserMapper.xml" />
+        <option value="$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl/UUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/UUserController.java" />
       </list>
     </option>
   </component>
@@ -242,10 +347,13 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="y" value="30" />
+    <option name="x" value="300" />
+    <option name="y" value="43" />
     <option name="width" value="1510" />
     <option name="height" value="934" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -271,66 +379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redisweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redismapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redismapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,10 +430,16 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28275862" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/redismapper/src/main/java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/redisweb/src/main/resources" />
+      <recent name="$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl" />
+      <recent name="$PROJECT_DIR$/redismapper/src/main/resources/common/mapper" />
+      <recent name="$PROJECT_DIR$/redispojo/src/main/java" />
+      <recent name="$PROJECT_DIR$/redismapper/src/main/java" />
+      <recent name="$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -909,12 +963,12 @@
       <updated>1500016473020</updated>
       <workItem from="1500016475961" duration="6052000" />
       <workItem from="1500024919326" duration="2033000" />
-      <workItem from="1500358375744" duration="1505000" />
+      <workItem from="1500358375744" duration="5519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9590000" />
+    <option name="totallyTimeSpent" value="13604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -926,7 +980,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="30" width="1510" height="934" extended-state="0" />
+    <frame x="300" y="43" width="1510" height="934" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -937,7 +992,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -948,10 +1003,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25681198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -982,7 +1037,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rediscommons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comCommons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
@@ -990,7 +1045,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comWeb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
@@ -998,7 +1053,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rediscommons/src/main/java/com/sky/commons/TestCommon.java">
+    <entry file="file://$PROJECT_DIR$/comCommons/src/main/java/com/sky/commons/TestCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
@@ -1006,7 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java">
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/testController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -1014,7 +1069,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
@@ -1022,7 +1077,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/TestService.java">
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -1030,7 +1085,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl/TestServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
@@ -1038,7 +1093,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comDao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
@@ -1046,7 +1101,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -1054,7 +1109,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/applicationContext-spring.xml">
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/resources/applicationContext-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
@@ -1070,7 +1125,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rediscommons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comCommons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
@@ -1078,7 +1133,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rediscommons/src/main/java/com/sky/commons/TestCommon.java">
+    <entry file="file://$PROJECT_DIR$/comCommons/src/main/java/com/sky/commons/TestCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -1086,7 +1141,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java">
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/testController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
@@ -1094,21 +1149,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismanager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comManager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redispojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comEntity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comDao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
@@ -1116,7 +1173,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -1124,7 +1181,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comWeb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
@@ -1132,29 +1189,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismanager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comManager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redispojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comEntity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comDao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
@@ -1162,7 +1213,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rediscommons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comCommons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
@@ -1170,23 +1221,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rediscommons/src/main/java/com/sky/commons/TestCommon.java">
+    <entry file="file://$PROJECT_DIR$/comCommons/src/main/java/com/sky/commons/TestCommon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
@@ -1194,7 +1229,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/TestService.java">
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -1202,7 +1237,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisservice/src/main/java/com/sky/service/impl/TestServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
@@ -1210,15 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/java/com/sky/controller/testController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
@@ -1234,7 +1261,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redismapper/src/main/resources/common/mapper/user.xml">
+    <entry file="file://$PROJECT_DIR$/../../../work/简易员工管理系统第3.2版/userMgt.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="127" column="30" lean-forward="true" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/resources/applicationContext-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="24" column="68" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comEntity/src/main/java/UUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comDao/src/main/java/com/sky/mapper/UUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comDao/src/main/resources/common/mapper/user.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1242,10 +1321,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redisweb/src/main/resources/applicationContext-spring.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="396">
+          <caret line="219" column="16" lean-forward="false" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/testController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comDao/src/main/resources/common/mapper/UUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <marker date="1500362405000" expanded="true" signature="913:1139" ph="INSERT INTO u_user... " />
+            <marker date="1500362405000" expanded="true" signature="1192:2001" ph="UPDATE u_use... " />
+            <marker date="1500362405000" expanded="true" signature="2061:2104" ph="DELETE FROM " />
+            <marker date="1500362405000" expanded="true" signature="2175:2269" ph="SELECT FROM u_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/comWeb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
