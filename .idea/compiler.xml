@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rediscommons" />
+        <module name="redismanager" />
+        <module name="redismapper" />
+        <module name="redispojo" />
+        <module name="redisservice" />
+        <module name="redisweb" />
+        <module name="redisweb-controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comredis" target="1.5" />
+      <module name="rediscommons" target="1.5" />
+      <module name="redismanager" target="1.5" />
+      <module name="redismapper" target="1.5" />
+      <module name="redispojo" target="1.5" />
+      <module name="redisservice" target="1.5" />
+      <module name="redisweb" target="1.5" />
+      <module name="redisweb-controller" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
