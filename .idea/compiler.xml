@@ -6,24 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rediscommons" />
-        <module name="redismanager" />
-        <module name="redismapper" />
-        <module name="redispojo" />
+        <module name="com-Entity" />
+        <module name="comredis" />
+        <module name="redis-commons" />
+        <module name="redis-manager" />
+        <module name="redis-mapper" />
+        <module name="redis-web" />
         <module name="redisservice" />
-        <module name="redisweb" />
-        <module name="redisweb-controller" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com-Entity" target="1.5" />
+      <module name="com-redis" target="1.5" />
       <module name="comredis" target="1.5" />
-      <module name="rediscommons" target="1.5" />
-      <module name="redismanager" target="1.5" />
-      <module name="redismapper" target="1.5" />
-      <module name="redispojo" target="1.5" />
+      <module name="redis-commons" target="1.5" />
+      <module name="redis-manager" target="1.5" />
+      <module name="redis-mapper" target="1.5" />
+      <module name="redis-web" target="1.5" />
       <module name="redisservice" target="1.5" />
-      <module name="redisweb" target="1.5" />
-      <module name="redisweb-controller" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

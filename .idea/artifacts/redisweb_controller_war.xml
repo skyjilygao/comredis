@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="redisweb-controller:war">
-    <output-path>$PROJECT_DIR$/redisweb/target</output-path>
-    <root id="archive" name="redis-web.war">
-      <element id="artifact" artifact-name="redisweb-controller:war exploded" />
-    </root>
-  </artifact>
-</component>

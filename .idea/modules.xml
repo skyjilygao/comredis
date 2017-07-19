@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/comCommons/rediscommons.iml" filepath="$PROJECT_DIR$/comCommons/rediscommons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comDao/redismapper.iml" filepath="$PROJECT_DIR$/comDao/redismapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comEntity/redispojo.iml" filepath="$PROJECT_DIR$/comEntity/redispojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comManager/redismanager.iml" filepath="$PROJECT_DIR$/comManager/redismanager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comService/redisservice.iml" filepath="$PROJECT_DIR$/comService/redisservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comWeb/redisweb-controller.iml" filepath="$PROJECT_DIR$/comWeb/redisweb-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comEntity/com-Entity.iml" filepath="$PROJECT_DIR$/comEntity/com-Entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-redis.iml" filepath="$PROJECT_DIR$/com-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/comredis.iml" filepath="$PROJECT_DIR$/comredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comCommons/redis-commons.iml" filepath="$PROJECT_DIR$/comCommons/redis-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comManager/redis-manager.iml" filepath="$PROJECT_DIR$/comManager/redis-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comDao/redis-mapper.iml" filepath="$PROJECT_DIR$/comDao/redis-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comWeb/redis-web.iml" filepath="$PROJECT_DIR$/comWeb/redis-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comService/redisservice.iml" filepath="$PROJECT_DIR$/comService/redisservice.iml" />
     </modules>
   </component>
 </project>

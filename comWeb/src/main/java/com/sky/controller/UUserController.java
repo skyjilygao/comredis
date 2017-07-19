@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("UUser")
+@RequestMapping("com.sky.entity.UUser")
 public class UUserController {
 
 	@Autowired

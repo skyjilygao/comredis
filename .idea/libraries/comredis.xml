@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="comredis">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/comCommons/src/main/java" />
+      <root url="file://$PROJECT_DIR$/comDao/src/main/java" />
+      <root url="file://$PROJECT_DIR$/comEntity/src/main/java" />
+      <root url="file://$PROJECT_DIR$/comService/src/main/java" />
+      <root url="file://$PROJECT_DIR$/comWeb/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

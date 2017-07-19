@@ -15,7 +15,7 @@
 
   <context-param>
     <param-name>log4jConfigLocation</param-name>
-    <param-value>classpath*:log4j.properties</param-value>
+    <param-value>classpath:log4j.propertiesties</param-value>
   </context-param>
 
   <!-- 编码过滤器 -->
@@ -54,10 +54,10 @@
   <servlet>
     <servlet-name>com sky</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <!--<init-param>-->
-      <!--<param-name>contextConfigLocation</param-name>-->
-      <!--<param-value>classpath*:dispatcher-servlet.xml</param-value>-->
-    <!--</init-param>-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath*:applicationContext*.xml</param-value>
+    </init-param>
     <load-on-startup>1</load-on-startup>
     <async-supported>true</async-supported>
   </servlet>
