@@ -6,20 +6,20 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>redis-web</artifactId>
+    <artifactId>comWeb</artifactId>
     <packaging>war</packaging>
-    <name>redis-web Maven Webapp</name>
+    <name>com-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
 
         <dependency>
             <groupId>com.sky</groupId>
-            <artifactId>redis-commons</artifactId>
+            <artifactId>comCommons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.sky</groupId>
-            <artifactId>redisservice</artifactId>
+            <artifactId>comService</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -30,6 +30,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>redis-web</finalName>
+        <finalName>com-web</finalName>
     </build>
 </project>

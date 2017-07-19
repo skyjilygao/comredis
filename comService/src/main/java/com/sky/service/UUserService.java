@@ -1,5 +1,7 @@
 package com.sky.service;
 
-public interface UUserService {
+import com.sky.entity.UUser;
 
+public interface UUserService {
+    public UUser getUsers();
 }

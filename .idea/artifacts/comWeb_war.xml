@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comWeb:war">
+    <output-path>$PROJECT_DIR$/comWeb/target</output-path>
+    <root id="archive" name="com-web.war">
+      <element id="artifact" artifact-name="comWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

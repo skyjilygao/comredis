@@ -1,4 +1,6 @@
+com/sky/service/RedisService.class
 com/sky/service/impl/UUserServiceImpl.class
 com/sky/service/TestService.class
+com/sky/service/impl/RedisServiceImpl.class
 com/sky/service/impl/TestServiceImpl.class
 com/sky/service/UUserService.class

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/comEntity/com-Entity.iml" filepath="$PROJECT_DIR$/comEntity/com-Entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-redis.iml" filepath="$PROJECT_DIR$/com-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comredis.iml" filepath="$PROJECT_DIR$/comredis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comCommons/redis-commons.iml" filepath="$PROJECT_DIR$/comCommons/redis-commons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comManager/redis-manager.iml" filepath="$PROJECT_DIR$/comManager/redis-manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comDao/redis-mapper.iml" filepath="$PROJECT_DIR$/comDao/redis-mapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comWeb/redis-web.iml" filepath="$PROJECT_DIR$/comWeb/redis-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comService/redisservice.iml" filepath="$PROJECT_DIR$/comService/redisservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comCommons/comCommons.iml" filepath="$PROJECT_DIR$/comCommons/comCommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comDao/comDao.iml" filepath="$PROJECT_DIR$/comDao/comDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comEntity/comEntity.iml" filepath="$PROJECT_DIR$/comEntity/comEntity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comManager/comManager.iml" filepath="$PROJECT_DIR$/comManager/comManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comService/comService.iml" filepath="$PROJECT_DIR$/comService/comService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comWeb/comWeb.iml" filepath="$PROJECT_DIR$/comWeb/comWeb.iml" />
     </modules>
   </component>
 </project>
