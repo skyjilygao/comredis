@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("com.sky.entity.UUser")
+@RequestMapping("/user")
 public class UUserController {
 
 	@Autowired
@@ -15,6 +15,6 @@ public class UUserController {
 
 	@RequestMapping("/index")
 	public String index(){
-		return "index";
+		return "a";
 	}
 }
