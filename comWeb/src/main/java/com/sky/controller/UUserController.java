@@ -1,5 +1,6 @@
 package com.sky.controller;
 
+import com.sky.entity.UUser;
 import com.sky.service.UUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -11,10 +12,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UUserController {
 
 	@Autowired
-	private UUserService uUserService;
+	private UUserService userService;
 
 	@RequestMapping("/index")
 	public String index(){
+		add(new UUser());
 		return "a";
+	}
+
+	public String add(UUser user){
+		user=new UUser();
+		user.setLoginName("aa");
+		user.setName("bb");
+		user.setPassword("cc");
+		user.setRoleName("system");
+		userService.insert(user);
+		return "ok";
 	}
 }

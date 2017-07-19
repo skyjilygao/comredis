@@ -69,5 +69,9 @@
 	    ]]>
 	</select>
 
+	<select id="getList" resultMap="rm">
+		SELECT <include refid="columns" />
+		from u_user
+	</select>
 </mapper>
 
