@@ -17,23 +17,14 @@
         <module name="redismapper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="com-Entity" target="1.5" />
-      <module name="com-redis" target="1.5" />
-      <module name="comCommons" target="1.5" />
-      <module name="comDao" target="1.5" />
-      <module name="comEntity" target="1.5" />
-      <module name="comManager" target="1.5" />
-      <module name="comredis" target="1.5" />
-      <module name="comService" target="1.5" />
-      <module name="comWeb" target="1.5" />
-      <module name="eb" target="1.5" />
-      <module name="redis-commons" target="1.5" />
-      <module name="redis-manager" target="1.5" />
-      <module name="redis-mapper" target="1.5" />
-      <module name="redis-web" target="1.5" />
-      <module name="redismapper" target="1.5" />
-      <module name="redisservice" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="com-redis" target="1.8" />
+      <module name="comCommons" target="1.8" />
+      <module name="comDao" target="1.8" />
+      <module name="comEntity" target="1.8" />
+      <module name="comManager" target="1.8" />
+      <module name="comService" target="1.8" />
+      <module name="comWeb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

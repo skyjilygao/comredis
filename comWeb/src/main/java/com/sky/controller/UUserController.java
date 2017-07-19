@@ -29,4 +29,11 @@ public class UUserController {
 		userService.insert(user);
 		return "ok";
 	}
+
+	@RequestMapping("/getUserById")
+	public String getUserById(){
+		UUser user=userService.getById(2);
+		System.out.println("1_"+user.toString());
+		return "../index";
+	}
 }

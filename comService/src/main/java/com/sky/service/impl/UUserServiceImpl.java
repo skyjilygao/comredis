@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -23,24 +24,33 @@ public class UUserServiceImpl implements UUserService {
 	private RedisService redisService;
 	public final static String userClassName=UUser.class.getSimpleName();
 	public Logger logger= LoggerFactory.getLogger(this.getClass());
-
+String testid="3";
 	public List<UUser> getUsers(){
 		List<UUser> list=userMapper.getList();
 		return list;
 	}
 	public UUser getById(Integer id){
 		UUser user=new UUser();
-
+		Map<String,UUser> map=redisService.getMap(userClassName,UUser.class);
+		if(map.containsKey(testid)){
+			user= map.get(testid);//test
+		}
 		return user;
 	}
 
 	@Override
 	public void insert(UUser user) {
-
+		Map<String,UUser> map=new HashMap();
 		userMapper.insert(user);
-		Map map=new ConcurrentHashMap();
-		map.put(user.getId(),user);
-		redisService.setMap(userClassName,map,UUser.class);
+		if(redisService.containsKey(userClassName)){
+			map=redisService.getMap(userClassName,UUser.class);
+			map.put(String.valueOf(user.getId()),user);
+			redisService.setMap(userClassName,  map,UUser.class);
+		}else{
+			map.put(user.getId().toString(),user);
+			redisService.setMap(userClassName,  map,UUser.class);
+		}
+		testid= user.getId().toString();
 	}
 
 	public boolean update(UUser user) {

@@ -13,5 +13,6 @@
 <body>
 index page ,hello
 <%= new Date()%>
+<a href="/user/getUserById"> getuserbyid ,and return index.jsp</a>
 </body>
 </html>

@@ -741,4 +741,15 @@ public class RedisServiceImpl implements RedisService {
         return (Set<T>) kryo.readObject(input, HashSet.class, serializer);
     }
 
+    public <T extends Serializable> boolean setMap(String k, Map<String, T> obj, Class<T> clazz,String str) {
+        //添加 一个 hash集合
+        HashOperations<String, Object, Object>  hash = redisTemplate.opsForHash();
+        Map<String,Object> map = new HashMap<String,Object>();
+        map.put("name", "lp");
+        map.put("age", "26");
+        hash.putAll("lpMap", map);
+        //获取 map
+        System.out.println(hash.entries("lpMap"));
+        return true;
+    }
 }
