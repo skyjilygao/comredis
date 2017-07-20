@@ -8,6 +8,7 @@ import com.esotericsoftware.kryo.serializers.JavaSerializer;
 import com.esotericsoftware.kryo.serializers.MapSerializer;
 import com.sky.service.RedisService;
 import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -651,6 +652,9 @@ public class RedisServiceImpl implements RedisService {
         try {
             ValueOperations<String, String> valueOps = redisTemplate.opsForValue();
             obj = valueOps.get(k);
+            if(obj==null || "".equals(obj)){
+                return null;
+            }
         } catch (Throwable t) {
             logger.error("获取缓存失败key[" + k + ", error[" + t + "]");
         }

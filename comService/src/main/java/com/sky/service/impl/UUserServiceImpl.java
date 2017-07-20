@@ -30,10 +30,24 @@ String testid="3";
 		return list;
 	}
 	public UUser getById(Integer id){
+		//testid为测试数据，正式使用时需要替换
 		UUser user=new UUser();
+		testid=1+"";
 		Map<String,UUser> map=redisService.getMap(userClassName,UUser.class);
-		if(map.containsKey(testid)){
-			user= map.get(testid);//test
+		if(map!=null ){
+			if(map.containsKey(testid)){
+				user= map.get(testid);//test
+			}else{
+				user=userMapper.getById(Integer.parseInt(testid));
+				//map=redisService.getMap(userClassName,UUser.class);
+				map.put(String.valueOf(user.getId()),user);
+				redisService.setMap(userClassName,  map,UUser.class);
+			}
+		}else{
+			user=userMapper.getById(Integer.parseInt(testid));
+			map=new HashMap();
+			map.put(user.getId().toString(),user);
+			redisService.setMap(userClassName,  map,UUser.class);
 		}
 		return user;
 	}

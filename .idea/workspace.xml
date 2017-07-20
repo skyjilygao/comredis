@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f89802-420d-411e-8d79-c15be4a74d63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/CacheControlFilter.class" afterPath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/CacheControlFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/PropertyPlaceholder.class" afterPath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/PropertyPlaceholder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/TestCommon.class" afterPath="$PROJECT_DIR$/comCommons/target/classes/com/sky/commons/TestCommon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comDao/target/classes/com/sky/dao/UUserMapper.class" afterPath="$PROJECT_DIR$/comDao/target/classes/com/sky/dao/UUserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comEntity/target/classes/com/sky/entity/UUser.class" afterPath="$PROJECT_DIR$/comEntity/target/classes/com/sky/entity/UUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/RedisService.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/RedisService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/TestService.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/TestService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/UUserService.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/UUserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/RedisServiceImpl.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/RedisServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/TestServiceImpl.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/TestServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/UUserServiceImpl.class" afterPath="$PROJECT_DIR$/comService/target/classes/com/sky/service/impl/UUserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/classes/com/sky/controller/UUserController.class" afterPath="$PROJECT_DIR$/comWeb/target/classes/com/sky/controller/UUserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/classes/com/sky/controller/testController.class" afterPath="$PROJECT_DIR$/comWeb/target/classes/com/sky/controller/testController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/com/sky/controller/UUserController.class" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/com/sky/controller/UUserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/com/sky/controller/testController.class" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/com/sky/controller/testController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comCommons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comCommons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comDao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comDao-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comEntity-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comEntity-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comService-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/lib/comService-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comDao/target/classes/common/mapper/UUserMapper.xml" afterPath="$PROJECT_DIR$/comDao/target/classes/common/mapper/UUserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java" afterPath="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java" afterPath="$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/src/main/webapp/jsp/a.jsp" afterPath="$PROJECT_DIR$/comWeb/src/main/webapp/jsp/a.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/comWeb/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/comWeb/target/com-web/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comWeb/target/com-web/index.jsp" afterPath="$PROJECT_DIR$/comWeb/target/com-web/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/comDao/target/" />
@@ -66,8 +41,8 @@
       <file leaf-file-name="UUserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -86,12 +61,12 @@
       <file leaf-file-name="RedisServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="604" column="77" lean-forward="true" selection-start-line="604" selection-start-column="77" selection-end-line="604" selection-end-column="77" />
+            <state relative-caret-position="118">
+              <caret line="654" column="12" lean-forward="false" selection-start-line="654" selection-start-column="12" selection-end-line="654" selection-end-column="12" />
               <folding>
-                <element signature="e#4323#4324#0" expanded="true" />
-                <element signature="e#4364#4365#0" expanded="true" />
-                <element signature="e#20978#20993#0" expanded="true" />
+                <element signature="e#4375#4376#0" expanded="true" />
+                <element signature="e#4416#4417#0" expanded="true" />
+                <element signature="e#21118#21133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +86,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="234" column="5" lean-forward="true" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+              <caret line="234" column="5" lean-forward="false" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -120,8 +95,8 @@
       <file leaf-file-name="UUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +107,8 @@
       <file leaf-file-name="UUserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="59" column="75" lean-forward="true" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="75" />
+            <state relative-caret-position="165">
+              <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/comEntity/src/main/java/com/sky/entity/UUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -157,7 +132,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+              <caret line="99" column="47" lean-forward="false" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -234,8 +209,8 @@
         <option value="$PROJECT_DIR$/comWeb/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/comWeb/src/main/webapp/jsp/a.jsp" />
         <option value="$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java" />
-        <option value="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -312,8 +287,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="29" />
+    <option name="x" value="321" />
+    <option name="y" value="65" />
     <option name="width" value="1510" />
     <option name="height" value="934" />
   </component>
@@ -1170,6 +1145,7 @@
     </configuration>
     <configuration default="false" name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="comWeb:war exploded">
@@ -1255,7 +1231,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500368438627</updated>
-      <workItem from="1500368510589" duration="29835000" />
+      <workItem from="1500368510589" duration="33460000" />
     </task>
     <task id="LOCAL-00001" summary="加入redis 文件">
       <created>1500430472307</created>
@@ -1278,11 +1254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500450141952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试redis 20170719180820">
+      <created>1500458914118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500458914118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29851000" />
+    <option name="totallyTimeSpent" value="33476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1294,8 +1277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="29" width="1510" height="934" extended-state="0" />
-    <editor active="true" />
+    <frame x="321" y="65" width="1510" height="934" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1311,7 +1293,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1346,16 +1328,23 @@
     <MESSAGE value="加入redis 文件" />
     <MESSAGE value="test页面访问" />
     <MESSAGE value="增加redis读写" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加redis读写" />
+    <MESSAGE value="测试redis 20170719180820" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试redis 20170719180820" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java</url>
+          <line>654</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1371,7 +1360,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1387,6 +1376,7 @@
         <watch expression="redisService.getMap(userClassName,UUser.class).put(&quot;4&quot;,user)" language="JAVA" />
         <watch expression="map.containsKey(id.toString())" />
         <watch expression="redisService.getMap(userClassName,UUser.class)" />
+        <watch expression="obj==null" />
       </configuration>
     </watches-manager>
   </component>
@@ -1701,16 +1691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1746,18 +1726,10 @@
     <entry file="file://$PROJECT_DIR$/comEntity/src/main/java/com/sky/entity/UUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1772,7 +1744,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+          <caret line="99" column="47" lean-forward="false" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1788,27 +1760,45 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="234" column="5" lean-forward="true" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+          <caret line="234" column="5" lean-forward="false" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comWeb/src/main/java/com/sky/controller/UUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/UUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="604" column="77" lean-forward="true" selection-start-line="604" selection-start-column="77" selection-end-line="604" selection-end-column="77" />
+        <state relative-caret-position="118">
+          <caret line="654" column="12" lean-forward="false" selection-start-line="654" selection-start-column="12" selection-end-line="654" selection-end-column="12" />
           <folding>
-            <element signature="e#4323#4324#0" expanded="true" />
-            <element signature="e#4364#4365#0" expanded="true" />
-            <element signature="e#20978#20993#0" expanded="true" />
+            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#4416#4417#0" expanded="true" />
+            <element signature="e#21118#21133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comService/src/main/java/com/sky/service/impl/UUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="59" column="75" lean-forward="true" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="75" />
+        <state relative-caret-position="165">
+          <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
