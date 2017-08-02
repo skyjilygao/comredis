@@ -18,13 +18,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="com-redis" target="1.8" />
-      <module name="comCommons" target="1.8" />
-      <module name="comDao" target="1.8" />
-      <module name="comEntity" target="1.8" />
-      <module name="comManager" target="1.8" />
-      <module name="comService" target="1.8" />
-      <module name="comWeb" target="1.8" />
+      <module name="com-redis" target="1.5" />
+      <module name="comCommons" target="1.5" />
+      <module name="comDao" target="1.5" />
+      <module name="comEntity" target="1.5" />
+      <module name="comManager" target="1.5" />
+      <module name="comService" target="1.5" />
+      <module name="comWeb" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

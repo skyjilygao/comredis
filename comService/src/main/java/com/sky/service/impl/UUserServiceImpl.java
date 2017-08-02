@@ -39,7 +39,6 @@ String testid="3";
 				user= map.get(testid);//test
 			}else{
 				user=userMapper.getById(Integer.parseInt(testid));
-				//map=redisService.getMap(userClassName,UUser.class);
 				map.put(String.valueOf(user.getId()),user);
 				redisService.setMap(userClassName,  map,UUser.class);
 			}

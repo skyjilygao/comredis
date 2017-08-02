@@ -180,11 +180,6 @@
     </dependency>
     <!-- 引入common包，其他通用包 -->
     <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.4</version>
-    </dependency>
-    <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
         <version>1.10</version>
@@ -223,6 +218,11 @@
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>2.5</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>LATEST</version>
     </dependency>
     <dependency>
         <groupId>org.aspectj</groupId>
