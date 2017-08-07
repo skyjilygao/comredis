@@ -1,5 +1,6 @@
 package com.sky.service.impl;
 
+import com.sky.commons.EntityUtils;
 import com.sky.dao.UUserMapper;
 import com.sky.entity.UUser;
 import com.sky.service.RedisService;
@@ -9,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
+import redis.clients.jedis.Jedis;
 
 import java.util.HashMap;
 import java.util.List;
@@ -24,6 +26,7 @@ public class UUserServiceImpl implements UUserService {
 	private RedisService redisService;
 	public final static String userClassName=UUser.class.getSimpleName();
 	public Logger logger= LoggerFactory.getLogger(this.getClass());
+	private Jedis jedis=new Jedis();
 String testid="3";
 	public List<UUser> getUsers(){
 		List<UUser> list=userMapper.getList();
@@ -51,7 +54,6 @@ String testid="3";
 		return user;
 	}
 
-	@Override
 	public void insert(UUser user) {
 		Map<String,UUser> map=new HashMap();
 		userMapper.insert(user);
@@ -68,15 +70,34 @@ String testid="3";
 
 	public boolean update(UUser user) {
 		try{
+			//方法1：使用序列化 map。缺点是，增加了序列化/反序列化的开销，并且在需要修改其中一项信息时，
+			// 需要把整个对象取回，并且修改操作需要对并发进行保护，引入CAS等复杂问题。
+//			if(user.getId() != null){
+//				//更新数据库数据
+//				userMapper.update(user);
+//				//更新redis
+//				if(redisService.getMap(userClassName,UUser.class).containsKey(user.getId())){
+//
+//					redisService.getMap(userClassName,UUser.class).put(user.getId().toString(),user);
+//				}else{
+//					Map map=new ConcurrentHashMap();
+//					map.put(user.getId(),user);
+//					redisService.setMap(userClassName,map,UUser.class);
+//				}
+//			}
+			//方法2：使用redis的hash存储
 			if(user.getId() != null){
+				//更新数据库数据
 				userMapper.update(user);
-				if(redisService.getMap(userClassName,UUser.class).containsKey(user.getId())){
-					redisService.getMap(userClassName,UUser.class).put(user.getId().toString(),user);
-				}else{
-					Map map=new ConcurrentHashMap();
-					map.put(user.getId(),user);
-					redisService.setMap(userClassName,map,UUser.class);
-				}
+				//更新redis
+				Map map=EntityUtils.objectToHash(user);
+				Map<String,String> map1=redisService.getHash(user.getId().toString());
+				user.setRoleName("999999");
+				map=EntityUtils.objectToHash(user);
+				//更新hash
+				redisService.cacheHash(user.getId().toString(),map);
+				Map<String,String> map2=redisService.getHash(user.getId().toString());
+				UUser user1=EntityUtils.hashToObject(map1,UUser.class);
 			}
 		}catch (Exception e){
 			logger.error("update user error:",e);

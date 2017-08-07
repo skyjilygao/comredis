@@ -23,7 +23,7 @@
       <module name="comDao" target="1.5" />
       <module name="comEntity" target="1.5" />
       <module name="comManager" target="1.5" />
-      <module name="comService" target="1.5" />
+      <module name="comService" target="1.6" />
       <module name="comWeb" target="1.5" />
     </bytecodeTargetLevel>
   </component>
